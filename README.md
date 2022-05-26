@@ -1,2 +1,2 @@
 # Aprendendo-html-e-css
-Criei esse repositório para que, ao mesmo tempo, pudesse aprender a criar sites e ensinar o que estou aprendendo a qualquer um que quiser.
+Criei para aprender gradativamente as linguagens html e css (eu sei que não são linguagens de programação), e ao mesmo tempo ensiná-las para quem tiver interesse. 
