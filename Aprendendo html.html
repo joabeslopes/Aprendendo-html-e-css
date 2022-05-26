@@ -1,0 +1,86 @@
+<!- Explicação: O html é um documento que forma a estrutura de um site. 
+Ele é lido e interpretado pelo seu navegador web (Chrome, Firefox, etc.). 
+A estrutura do html é dividida em elementos (html, head, title, body), e cada elemento tem seus atributos (atributo = "valores do atributo").
+Perceba que todo elemento começa entre os sinais de maior e menor, 
+e quase todos terminam quando aparece novamente o mesmo elemento, mas com uma barra antes de seu nome.
+->
+
+<!DOCTYPE html>
+<html>
+    <head> 
+
+<!-Explicação: O head é a parte que contém os metadados (dados sobre os dados) do site, 
+como o título, os caracteres usados (pesquise sobre tabela ascii e uft-8), as palavras chave do site,
+o nome do autor, e também scripts (caixinha de texto que abre na parte superior).
+->
+        
+    <title> Aprendendo a criar sites </title>
+
+        <meta charset="UFT-8">
+        <meta name="description" content="Estou aprendendo a criar sites">
+        <meta name="keywords" content="aprendendo, html, css, criaçao de sites">
+        <meta name="author" content="Joabe Lopes">
+        <script> alert("Olá mundo, eu sou um script :)") </script>
+    </head>
+    <body>
+
+<!-Explicação: O body é o corpo principal do site, onde vão textos,
+imagens, vídeos, tabelas, formulários, etc.
+->
+        
+    <h1> Começando uma jornada: <br> Rumo ao primeiro site </h1>
+
+<!-Explicação: O h1 é um cabeçalho para o texto, e seu tamanho pode variar do h1 ao h6.
+O br é uma quebra de linha (break).
+->
+
+    <p> Aprendendo a criar sites através do livro: <br> Guia prático: HTML & CSS </p>
+
+<!-Explicação: O p é para criar um parágrafo.
+->
+
+    Aqui não tem parágrafo, <br>
+    são apenas frases soltas no body.
+
+    <pre> 
+Aqui é um texto pré-formatado.
+
+    Eu não preciso criar parágrafos e quebras de linha, 
+pois ele formata o texto 
+exatamente como digitei.
+    </pre>
+
+    <div> Os divs são blocos de texto, e sempre começam em uma nova linha </div>
+
+    <!- Você também pode criar um comentário, que não aparecerá navegador, como este que você está lendo agora ->
+
+        <h1> Criando uma lista de marcadores</h1>
+
+        <ul style="list-style-type: circle;">
+            <li> Primeiro item </li>
+            <li> Segundo item </li>
+            <li> Terceiro item </li>
+        </ul>
+
+<!-Explicação: A ul é uma lista de marcadores, ou seja, seus itens são marcados por símbolos, e esses símbolos podem ser vários,
+como cicrle, square, disc, none, etc. 
+Para definir o símbolo, usa-se o atributo style.
+No exemplo acima, defini o símbolo circle.
+->
+
+        <h1> Criando uma lista ordenada </h1>
+        
+        <ol type="1">
+            <li> Primeiro item </li>
+            <li> Segundo item </li>
+            <li> Terceiro item </li>
+        </ol>
+
+<!- Explicação: A ol é uma lista ordenada, ou seja, separa os itens por ordem numérica.
+Existem 5 tipos de numeração para ela: 1, A, a, I, ou i.
+Para definir o tipo de número, usa-se o atributo type.
+No exemplo acima, defini o tipo 1.
+->
+
+    </body>
+    </html>
